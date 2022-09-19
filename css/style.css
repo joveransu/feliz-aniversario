@@ -81,4 +81,16 @@ section.imagem > p {
 
 #cupcake {
     background-image: url(../imagens/bolo.jpg);
+    background-position: left bottom;
+}
+
+@media screen and (min-width: 700px){
+
+    h1 {
+        font-size: 3.3em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
 }
