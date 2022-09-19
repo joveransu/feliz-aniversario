@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+
+/* 
+    320px — 480px for mobile devices
+    481px — 768px for iPads & tablets
+*/
+
+:root {
+    --cor0: #14140F;
+    --cor1: #053D38;
+    --cor2: #34675C;
+    --cor3: #A3CCAB;
+    --cor4: #F26800;
+    --font-default: 'Kalam', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-default);
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+header {
+    text-align: center;
+    background-image: url(../imagens/flores.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px white;
+    padding: 15px;
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 2.7em;
+}
+
+header > p {
+    font-size: 1.2em;
+    padding-top: 25px;
+    color: white;
+    text-shadow: 1px 1px var(--cor1);
+}
+
+section {
+    padding: 50px;
+    padding-left: 15px;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+section.fundo {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.464);
+    text-shadow: 2px 2px 0px black;
+}
+
+#balao {
+    background-image: url(../imagens/balao.jpg);
+    background-position: 15% 65%;
+}
+
+#cupcake {
+    background-image: url(../imagens/bolo.jpg);
+}
